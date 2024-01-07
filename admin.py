@@ -2,7 +2,7 @@ import datetime
 import pandas as pd
 import streamlit as st
 
-# Global DataFrame to store parking lot data
+
 parking_lot = pd.DataFrame(columns=['Registration_no', 'Owner_name', 'Email', 'Date_of_allocation', 'Slot'])
 
 # Function to add a new vehicle to the Parking Lot
